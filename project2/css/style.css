@@ -1,0 +1,202 @@
+html{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+
+body{
+    /* background-image: url(../static/output-onlinepngtools.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px  rgba(0, 0, 0, 0.205);
+}
+
+h2{
+    font-size: 1.4rem;
+    font-family: 'Playfair Display',sans-serif;
+    margin-top: 20px;
+
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin: auto;
+}
+
+header{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+header img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+
+}
+
+.navbutton{
+    margin-left: 30px;
+    border: 1px solid white;
+    font-family: 'Playfair Display',sans-serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 15px;
+    margin-left: -50px;
+    text-align: center;
+
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navbutton{
+    width: 100px;
+    background-color: white;
+}
+
+.dropdown .navbutton:hover{
+    background-color:rgb(236, 235, 235);
+}
+
+.dropdown .navbutton a{
+    color:#FA4083;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herobox1{
+    flex: 2;
+}
+
+.herobox2{
+    flex: 1;
+}
+
+.herobox2 img{
+    object-fit: cover;
+    object-position: center;
+    min-height: 250px;
+    width: 100%;
+}
+
+.mybutton{
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display',sans-serif;
+    padding: 11px 25px;
+    margin-top: 20px;
+    display:inline-block;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px  rgba(0, 0, 0, 0.205);
+}
+
+.mybutton:hover{
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    transition-duration: 100ms;
+}
+
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px ;
+}
+
+.card1{
+    background-image: url(../static/4.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.205);
+}
+.card2{
+    background-image: url(../static/6.jpg);
+    background-size:cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.205);
+}
+.card3{
+    background-image: url(../static/9.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.205);
+}
+
+i{
+    font-size: 80px;
+}
+
+.card1,.card2,.card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+.tbox :last-child{
+    font-size: 0.8rem;
+    padding-left: 30px;;
+}

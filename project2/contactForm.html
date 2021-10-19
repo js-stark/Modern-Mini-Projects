@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contactForm.css">
+    <link rel="stylesheet" href="./css/css_reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="./static/logo1 (3).png" alt="">
+            </div>
+            <nav>
+                <div class="navbutton">
+                    <a href="">Home</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="">Services</a>
+                    <div class="dropdown">
+                        <div class="navbutton"><a href="">Orders</a></div>
+                        <div class="navbutton"><a href="">Details</a></div>
+                        <div class="navbutton"><a href="">Members</a></div>
+                    </div>
+                </div>
+
+                <div class="navbutton">
+                    <a href="">Branch</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="">Contact</a>
+                </div>
+                      
+            </nav>
+
+        </header>
+
+        <div class="title">
+            <h1>Contact Us</h1>
+        </div>
+        
+
+<!----------------------------------- Form Inputs -------------------------------------->
+        <form action="#"> 
+            <div class="Details">
+                <div class="field">
+                    <input type="text" name="name" placeholder="Enter your Name">
+                    <i class="fas fa-user"></i>
+                </div>
+            
+            
+                <div class="field">
+                    <input type="text" name="email" placeholder="Enter your Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            
+            
+                <div class="field">
+                    <input type="text" name="phone" placeholder="Enter your Number">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+            
+                <div class="field">
+                    <input type="text" name="website" placeholder="Enter your Website">
+                    <i class="fas fa-globe"></i>
+                </div>
+            
+            </div>
+            
+<!-----------------x------------------ Form Inputs -------------x------------------------->
+
+<!----------------------------------- Form Message -------------------------------------->
+
+            <div class="form-message">
+                <textarea name="message" placeholder="Write your message" id="message" cols="30" rows="10"></textarea>
+                <i class = "material-icons">message</i>
+            </div>
+
+            <div class="button-area">
+                <button type="submit">Send Message</button>
+                <span>Sending the message..</span>
+            </div>
+<!-----------------x------------------Form Message --------------x------------------------>
+
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Styling for the Responsive Webpage design course*/
+
+.container{
+    max-width: 1024px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cols{
+    background-color: rgb(55, 252, 160);
+    width: 30%;
+    margin-bottom: 40px;
+    
+}
+
+.cols img{
+    width: 100%;
+    height: auto;
+}
+
+.cols p{
+    font-family: "josefin sans","Helvetica","sans-serif";
+    color: white;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}
+
+.cols p::first-line{
+    font-weight: 700;
+}
+
+.hide-desktop-only{
+    display: none;
+}
+
+/* Media Adjustment for Tablet view*/
+
+@media (max-width:768px){
+
+    .cols{
+        width: 47%;
+    }
+
+    .hide-desktop-only{
+        display: block;
+    }
+}
+
+/* Media Adjustment for Mobile view */
+
+@media (max-width:500px){
+    .cols{
+        width: 100%;
+    }
+
+    .hide-mobile-only{
+        display: none;
+    }
+}
+

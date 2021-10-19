@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: blue;
+}
+
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position:relative;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(128, 0, 64);
+    position: absolute;
+    top:20px;
+}
