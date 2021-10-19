@@ -4,14 +4,18 @@ basic design implementations with the Adobe XD as a preprocessor for making beau
 foundation for building websites
 
 
-## Project 1
+## Project 0
 
 ---> Basic Templates for Navigation bar , Flex Container and Flex Bar
 
-## Project 2
+## Project 1
+
+---> Basic Hotel Website using Flex Containers
+
+## Project 3
 
 --->New Modern Website built with a Adobe Template as a Preprocessor
 
-## Projext 3
+## Projext 4
 
 ---> Responsive Flex Container with boxes for diplaying Blogs and Cards
