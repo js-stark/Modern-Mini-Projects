@@ -19,3 +19,7 @@ foundation for building websites
 ## Projext 4
 
 ---> Responsive Flex Container with boxes for diplaying Blogs and Cards
+
+![project2](https://user-images.githubusercontent.com/79846829/137849773-ef46ec01-6660-4b27-9742-d54cc6dc932b.png)
+![project2-ct](https://user-images.githubusercontent.com/79846829/137849799-718c67f8-7cea-4d90-8f63-8368bec63416.png)
+
